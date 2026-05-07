@@ -1325,7 +1325,7 @@ function AuthScreen({ onLogin }) {
             </button>
           )}
           <div className="auth-card-head">
-            <img src="/aztekiller-logo.png" alt="Aztekiller" />
+            <img src="/logo-definitivo.png" alt="Creators Guardian" />
             <div>
               <p className="eyebrow">Acceso privado</p>
               <h3>{mode === 'register' ? `Registro ${selectedPlan.name}` : 'Entra a tu guardian'}</h3>
@@ -3328,7 +3328,7 @@ function GuardianDashboard({ currentUser, onLogout }) {
     return (
       <main className={`app-shell auth-shell ${isMobileEdition ? 'mobile-edition' : ''}`}>
         <section className="auth-card paused-card">
-          <img src="/aztekiller-logo.png" alt="Aztekiller" />
+          <img src="/logo-definitivo.png" alt="Creators Guardian" />
           <p className="eyebrow">Acceso protegido</p>
           <h1>{statusCopy[subscriptionStatus]}</h1>
           <p>
@@ -3883,7 +3883,7 @@ function GuardianDashboard({ currentUser, onLogout }) {
       <section className="hero">
         <div className="hero-top">
           <div className="brand-lockup">
-            <img src="/aztekiller-logo.png" alt="Aztekiller" />
+            <img src="/logo-definitivo.png" alt="Creators Guardian" />
           <div>
             <span>Aztekiller</span>
             <strong>Creators Guardian</strong>
@@ -6731,7 +6731,7 @@ function GuardianDashboard({ currentUser, onLogout }) {
       )}
 
       <footer>
-        <img src="/aztekiller-logo.png" alt="Aztekiller" />
+        <img src="/logo-definitivo.png" alt="Creators Guardian" />
         <span>Aztekiller Creators Guardian</span>
         <p>Herramienta lista para Cloudflare Pages. Archivos y hashes se revisan localmente; cuentas y checklist se guardan en Supabase.</p>
         <div className="trust-footer">
@@ -6776,7 +6776,7 @@ function PasswordResetScreen({ onDone }) {
     <main className={`app-shell auth-shell${isMobileEdition ? ' mobile-edition' : ''}`}>
       <section className="auth-card password-reset-card">
         <div className="auth-card-head">
-          <img src="/aztekiller-logo.png" alt="Aztekiller" />
+          <img src="/logo-definitivo.png" alt="Creators Guardian" />
           <div>
             <p className="eyebrow">Recuperar acceso</p>
             <h3>Nueva contraseña</h3>
@@ -6900,7 +6900,7 @@ function App() {
     return (
       <main className="app-shell auth-shell">
         <section className="auth-card">
-          <img src="/aztekiller-logo.png" alt="Aztekiller" />
+          <img src="/logo-definitivo.png" alt="Creators Guardian" />
           <h1>Cargando guardian...</h1>
         </section>
       </main>
