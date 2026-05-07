@@ -1,4 +1,6 @@
 ﻿import React, { useEffect, useMemo, useRef, useState } from 'react';
+console.log('--- CREATORS GUARDIAN DEBUG ---');
+console.log('Iniciando carga de componentes...');
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
