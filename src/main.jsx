@@ -1143,7 +1143,7 @@ function AuthScreen({ onLogin }) {
           <>
         <div className="auth-topbar">
           <div className="auth-brandline">
-            <img src="/aztekiller-logo.png" alt="Creators Guardian" />
+            <img src="/logo-definitivo.png" alt="Creators Guardian" />
             <div>
               <p className="eyebrow">Ciberseguridad premium para Creadores de Contenido</p>
               <strong>Creators Guardian</strong>
@@ -1202,7 +1202,7 @@ function AuthScreen({ onLogin }) {
                 <div className="cyber-score-row">
                   <div className="cyber-score-circle">
                     <svg viewBox="0 0 36 36" className="cyber-donut">
-                      <circle cx="18" cy="18" r="15.9" fill="none" stroke="rgba(124,58,237,0.18)" strokeWidth="3" />
+                      <circle cx="18" cy="18" r="15.9" fill="none" stroke="rgba(16, 185, 129, 0.18)" strokeWidth="3" />
                       <circle cx="18" cy="18" r="15.9" fill="none" stroke="#10b981" strokeWidth="3"
                         strokeDasharray="84 16" strokeDashoffset="25" strokeLinecap="round" />
                     </svg>
