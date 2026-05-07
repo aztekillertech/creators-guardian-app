@@ -1,4 +1,4 @@
-const CACHE = 'ugcguardian-v3';
+const CACHE = 'creatorsguardian-v1';
 const SHELL = ['/', '/mobile.html', '/src/main.jsx'];
 
 self.addEventListener('install', (e) => {
@@ -17,9 +17,11 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
+  if (!e.request.url.startsWith('http')) return; // IGNORAR EXTENSIONES Y OTROS PROTOCOLOS
   if (e.request.url.includes('supabase.co')) return;
   if (e.request.url.includes('/api/')) return;
   if (e.request.headers.get('Authorization')) return;
+  
   e.respondWith(
     fetch(e.request)
       .then((res) => {
