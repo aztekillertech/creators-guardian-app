@@ -39,3 +39,5 @@ Build:
 
 - Build command: `npm run build`
 - Output directory: `dist`
+
+<!-- Trigger Cloudflare redeploy -->
