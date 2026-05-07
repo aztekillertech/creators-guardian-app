@@ -5296,7 +5296,7 @@ function GuardianDashboard({ currentUser, onLogout }) {
 
           {adminProfiles.length > 0 && (
             <div className="admin-plan-breakdown">
-              {[['Starter', 'starter', '#6b6b90'], ['Pro', 'pro', '#8a2be2'], ['Elite', 'elite', '#f59e0b'], ['Shield', 'shield', '#22c55e']].map(([label, id, color]) => {
+              {[['Starter', 'starter', '#6b6b90'], ['Pro', 'pro', '#10b981'], ['Elite', 'elite', '#f59e0b'], ['Shield', 'shield', '#22c55e']].map(([label, id, color]) => {
                 const count = adminProfiles.filter((p) => normalizePlanId(p.access_plan) === id).length;
                 const pct = adminProfiles.length ? Math.round((count / adminProfiles.length) * 100) : 0;
                 return (
